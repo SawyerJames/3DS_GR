@@ -482,38 +482,38 @@
 					}
 				}
 			})
-		.loader(9
-			['img/tail_back.png',
-				'img/tail_share.png',
-				'img/tail_logo.png',
-				'img/tail_slogan.png',
-				'img/face_logo.png',
-				'img/face_slogan.png',
-				'img/face_img_left.png',
-				'img/face_img_right.png',
-				'img/description_bg.png',
-				'img/p1_people.png']
-				);
-	// $.getJSON('data.json',function(json){
-	// 	$.each(json,function(i,item){
-	// 		if (item.isPage) {
-	// 			h5.addPage(item.name,item.text);
-	// 		}
-	// 		else{
-	// 			h5.addComponent(item.name,item.cfg);
-	// 		}
-	// 	});
-	// 	h5.loader([
-	// 		'img/tail_back.png',
-	// 		'img/tail_share.png',
-	// 		'img/tail_logo.png',
-	// 		'img/tail_slogan.png',
-	// 		'img/face_logo.png',
-	// 		'img/face_slogan.png',
-	// 		'img/face_img_left.png',
-	// 		'img/face_img_right.png',
-	// 		'img/description_bg.png',
-	// 		'img/p1_people.png'
-	// 	]);
-	// });
+		// .loader(9
+		// 	['img/tail_back.png',
+		// 		'img/tail_share.png',
+		// 		'img/tail_logo.png',
+		// 		'img/tail_slogan.png',
+		// 		'img/face_logo.png',
+		// 		'img/face_slogan.png',
+		// 		'img/face_img_left.png',
+		// 		'img/face_img_right.png',
+		// 		'img/description_bg.png',
+		// 		'img/p1_people.png']
+		// 		);
+	$.getJSON('data.json',function(json){
+		$.each(json,function(i,item){
+			if (item.isPage) {
+				h5.addPage(item.name,item.text);
+			}
+			else{
+				h5.addComponent(item.name,item.cfg);
+			}
+		});
+		h5.loader([
+			'img/tail_back.png',
+			'img/tail_share.png',
+			'img/tail_logo.png',
+			'img/tail_slogan.png',
+			'img/face_logo.png',
+			'img/face_slogan.png',
+			'img/face_img_left.png',
+			'img/face_img_right.png',
+			'img/description_bg.png',
+			'img/p1_people.png'
+		]);
+	});
 });
