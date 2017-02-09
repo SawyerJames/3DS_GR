@@ -1,1 +1,993 @@
-[{"isPage":true,"name":"face"},{"isPage":false,"name":"footer","cfg":{"bg":"img/footer.png","css":{"opacity":0,"left":0,"bottom":-20,"width":"100%","height":"20px","zIndex":999},"animateIn":{"opacity":1,"bottom":"0px"},"animateOut":{"opacity":0,"bottom":"-20px"}}},{"isPage":false,"name":"topic","cfg":{"bg":"img/face_logo.png","css":{"opacity":0},"animateIn":{"width":"90%","height":"90%","left":"4%","top":"10%","opacity":1},"animateOut":{"top":0,"opacity":0}}},{"isPage":false,"name":"slogan","cfg":{"center":true,"bg":"img/face_slogan.png","css":{"opacity":0,"top":"30%","width":"70%","height":"70%"},"animateIn":{"left":"16%","opacity":1},"animateOut":{"left":"0%","opacity":0},"delay":500}},{"isPage":false,"name":"face_img_left","cfg":{"bg":"img/face_img_left.png","css":{"width":"55%","height":"55%","opacity":0,"left":"-20%","bottom":"-50%"},"animateIn":{"left":0,"bottom":"-14%","opacity":1},"animateOut":{"left":"-50%","bottom":"-50%","opacity":0},"delay":1000}},{"isPage":false,"name":"face_img_right","cfg":{"bg":"img/face_img_right.png","css":{"width":"45%","height":"45%","opacity":0,"right":"-50%","bottom":"-50%"},"animateIn":{"right":0,"bottom":"-5%","opacity":1},"animateOut":{"right":"-50%","bottom":"-50%","opacity":0},"delay":1100}},{"isPage":true,"name":"page_desc"},{"isPage":false,"name":"footer","cfg":{"bg":"img/footer.png","css":{"opacity":0,"left":0,"bottom":-20,"width":"100%","height":"20px","zIndex":999},"animateIn":{"opacity":1,"bottom":"0px"},"animateOut":{"opacity":0,"bottom":"-20px"}}},{"isPage":false,"name":"caption","cfg":{"text":"3DS 游戏市场"}},{"isPage":false,"name":"text","cfg":{"bg":"img/text.png","css":{"width":"80%","height":"80%","left":"10%","opacity":0},"animateIn":{"opacity":1,"top":"18%"},"animateOut":{"opacity":0,"top":"-10%"}}},{"isPage":false,"name":"desc","cfg":{"bg":"img/description_bg.png","css":{"width":"82%","height":"82%","opacity":0,"left":"5%","top":"0%","padding":"15px","color":"#fff","fontSize":"14px","lineHeight":"18px","textAlign":"justify"},"text":"3DS任天堂次时代掌机一经发售，便快速拢占市场。游戏支持不仅有第一方著名的马里奥，口袋妖怪，塞尔达等。更有诸多第三方游戏厂家支持。此次盘点为2016~17年度3DS游戏发售量，竭力为你呈现最直观的，3DS的游戏市场数据。","animateIn":{"opacity":1,"top":"32%"},"animateOut":{"opacity":0,"top":"0%"},"delay":1000}},{"isPage":false,"name":"people","cfg":{"bg":"img/p1_people.png","css":{"opacity":0,"bottom":"-77%","width":"100%","height":"100%"},"animateIn":{"opacity":1,"bottom":"-66%"},"animateOut":{"opacity":0,"bottom":"-77%"},"delay":500}},{"isPage":true,"name":"page_1"},{"isPage":false,"name":"footer","cfg":{"bg":"img/footer.png","css":{"opacity":0,"left":0,"bottom":-20,"width":"100%","height":"20px","zIndex":999},"animateIn":{"opacity":1,"bottom":"0px"},"animateOut":{"opacity":0,"bottom":"-20px"}}},{"isPage":false,"name":"caption","cfg":{"text":"3DS全球销量排名"}},{"isPage":false,"name":"polyline","cfg":{"type":"Polyline","width":1000,"height":550,"data":[["No.1",0.95,"#FFE801"],["No.2",0.81],["No.3",0.74],["No.4",0.71],["No.5",0.65],["No.6",0.62],["No.7",0.51],["No.8",0.34],["No.9",0.31],["No.10",0.28]],"css":{"top":"0%","opacity":0},"animateIn":{"top":"30%","opacity":1},"animateOut":{"top":"0%","opacity":0}}},{"isPage":true,"name":"page_1_dsc"},{"isPage":false,"name":"footer","cfg":{"bg":"img/footer.png","css":{"opacity":0,"left":0,"bottom":-20,"width":"100%","height":"20px","zIndex":999},"animateIn":{"opacity":1,"bottom":"0px"},"animateOut":{"opacity":0,"bottom":"-20px"}}},{"isPage":false,"name":"caption","cfg":{"text":"3DS全球销量排名"}},{"isPage":false,"name":"msg","cfg":{"text":[["No.1:","口袋妖怪XY","1430万"],["No.2:","马里奥卡丁车","1219万"],["No.3:","口袋妖怪蓝宝石复刻","1126万"],["No.4:","超级马里奥3D大陆","1079万"],["No.5:","新超级马里奥兄弟2","981万"],["No.6:","动物之森：新叶","908万"],["No.7:","任天堂大乱斗3DS","744万"],["No.8:","朋友聚会生活","513万"],["No.9:","路易鬼屋：暗月","458万"],["No.10:","塞尔达传说：时之笛","420万"]],"css":{"width":"80%","top":"20%","left":"10%","opacity":0},"animateIn":{"opacity":1},"animateOut":{"opacity":0}}},{"isPage":true,"name":"page_2"},{"isPage":false,"name":"footer","cfg":{"bg":"img/footer.png","css":{"opacity":0,"left":0,"bottom":-20,"width":"100%","height":"20px","zIndex":999},"animateIn":{"opacity":1,"bottom":"0px"},"animateOut":{"opacity":0,"bottom":"-20px"}}},{"isPage":false,"name":"caption","cfg":{"text":"玩家消费周期"}},{"isPage":false,"name":"pie","cfg":{"type":"Pie","width":400,"height":400,"data":[["首周",0.4,"#FCBCBC"],["第二周",0.25,"#7BD7F9"],["第三周",0.15,"#FF9881"],["第四周",0.1,"#57D04E"],["第五周",0.1,"#DCE382"],["其他",0.1,"#E0E0E0"]],"css":{"top":"0%","opacity":0},"animateIn":{"top":"30%","opacity":1},"animateOut":{"top":"0%","opacity":0},"center":true}},{"isPage":false,"name":"msg","cfg":{"slogan":"玩家消费程度随周数逐渐降低","sloganClass":"slogan_pie","css":{"opacity":0,"bottom":100,"textAlign":"center","width":"100%","color":"#F51111","fontSize":"20px"},"animateIn":{"opacity":1},"animateOut":{"opacity":0},"delay":1700}},{"isPage":true,"name":"page_3"},{"isPage":false,"name":"footer","cfg":{"bg":"img/footer.png","css":{"opacity":0,"left":0,"bottom":-20,"width":"100%","height":"20px","zIndex":999},"animateIn":{"opacity":1,"bottom":"0px"},"animateOut":{"opacity":0,"bottom":"-20px"}}},{"isPage":false,"name":"caption","cfg":{"text":"口袋妖怪历代销量"}},{"isPage":false,"name":"bar","cfg":{"type":"Bar","width":550,"height":650,"data":[["红/蓝宝石",0.62,"16.4m","#0052FF"],["火红/叶绿",0.5,"12m"],["绿宝石",0.25,"6.3m"],["珍珠/钻石",0.62,"16.5m","#FB059F"],["白金",0.27,"7.6m"],["心金/魂银",0.53,"12.7m"],["黑/白",0.57,"15.6m"],["黑2/白2",0.35,"8.5m"],["XY",0.62,"17.4m","#FF2E00"],["红/蓝宝石复刻",0.49,"11.9m"]],"css":{"top":0,"opacity":0},"animateIn":{"top":"20%","opacity":1},"animateOut":{"top":0,"opacity":0},"center":true}},{"isPage":false,"name":"msg","cfg":{"slogan":"口袋妖怪XY荣居榜首！","sloganClass":"slogan_bar","css":{"opacity":0,"bottom":100,"textAlign":"center","width":"100%","color":"#F51111","fontSize":"20px"},"animateIn":{"opacity":1},"animateOut":{"opacity":0},"delay":1500}},{"isPage":true,"name":"page_4"},{"isPage":false,"name":"footer","cfg":{"bg":"img/footer.png","css":{"opacity":0,"left":0,"bottom":-20,"width":"100%","height":"20px","zIndex":999},"animateIn":{"opacity":1,"bottom":"0px"},"animateOut":{"opacity":0,"bottom":"-20px"}}},{"isPage":false,"name":"caption","cfg":{"text":"首周!Fami通评分"}},{"isPage":false,"name":"Radar","cfg":{"type":"radar","width":500,"height":500,"data":[["口袋妖怪XY",0.65,"#c3e5ff"],["跳出!动物之森",0.65,"#c3e5ff"],["怪物猎人4",0.55,"#c3e5ff"],["妖怪手表2",0.35,"#c3e5ff"],["口袋妖怪复刻",0.45,"#c3e5ff"]],"css":{"bottom":0,"opacity":0},"animateIn":{"top":"24%","opacity":1},"animateOut":{"bottom":0,"opacity":0},"center":true}},{"isPage":false,"name":"msg","cfg":{"slogan":"口袋妖怪XY获得39分！","sloganClass":"slogan_radar","css":{"opacity":0,"bottom":100,"textAlign":"center","width":"100%","color":"#F51111","fontSize":"20px"},"animateIn":{"opacity":1},"animateOut":{"opacity":0},"delay":2000}},{"isPage":true,"name":"page_5"},{"isPage":false,"name":"footer","cfg":{"bg":"img/footer.png","css":{"opacity":0,"left":0,"bottom":-20,"width":"100%","height":"20px","zIndex":999},"animateIn":{"opacity":1,"bottom":"0px"},"animateOut":{"opacity":0,"bottom":"-20px"}}},{"isPage":false,"name":"caption","cfg":{"text":"国际游戏销售比例"}},{"isPage":false,"name":"point","cfg":{"type":"Point","width":250,"height":250,"data":[["日本",0.3,"#FC7C7C"],["欧洲",0.2,"#A3F6F5","70%","-70%"],["北美",0.1,"#13DB64","-40%","-50%"],["中国港台",0.15,"#D5E86D","-55%","90%"],["其他",0.25,"#FF7CDB","75%","110%"]],"css":{"bottom":0,"opacity":0},"animateIn":{"bottom":"40%","opacity":1},"animateOut":{"bottom":0,"opacity":0},"center":true}},{"isPage":true,"name":"tail"},{"isPage":false,"name":"footer","cfg":{"bg":"img/footer.png","css":{"opacity":0,"left":0,"bottom":-20,"width":"100%","height":"20px","zIndex":999},"animateIn":{"opacity":1,"bottom":"0px"},"animateOut":{"opacity":0,"bottom":"-20px"}}},{"isPage":false,"name":"tail_logo","cfg":{"bg":"img/tail_logo.png","css":{"width":"70%","height":"70%","opacity":0,"left":"17%","top":"50%"},"animateIn":{"opacity":1,"top":"30%"},"animateOut":{"opacity":0,"top":"100%"}}},{"isPage":false,"name":"slogan","cfg":{"bg":"img/tail_slogan.png","css":{"width":"50%","height":"50%","opacity":0,"top":"45%","left":0},"animateIn":{"opacity":1,"left":"26%"},"animateOut":{"opacity":0,"left":"0"},"delay":500}},{"isPage":false,"name":"tail_share","cfg":{"bg":"img/tail_share.png","css":{"width":"25%","height":"25%","opacity":0,"top":"100%"},"animateIn":{"opacity":1,"top":0,"right":"1%"},"animateOut":{"opacity":0,"top":"100%","right":"100%"},"delay":800}},{"isPage":false,"name":"tail_back","cfg":{"bg":"img/tail_back.png","css":{"width":"10%","height":"10%","opacity":0,"left":"45%","top":"5%"},"animateIn":{"opacity":1,"top":"0"},"animateOut":{"opacity":0,"top":"5%"},"class":"backBtn","onclick":{}}}]
+[
+  {
+    "isPage": true,
+    "name": "face"
+  },
+  {
+    "isPage": false,
+    "name": "footer",
+    "cfg": {
+      "bg": "img/footer.png",
+      "css": {
+        "opacity": 0,
+        "left": 0,
+        "bottom": -20,
+        "width": "100%",
+        "height": "20px",
+        "zIndex": 999
+      },
+      "animateIn": {
+        "opacity": 1,
+        "bottom": "0px"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "bottom": "-20px"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "topic",
+    "cfg": {
+      "bg": "img/face_logo.png",
+      "css": {
+        "opacity": 0
+      },
+      "animateIn": {
+        "width": "90%",
+        "height": "90%",
+        "left": "4%",
+        "top": "10%",
+        "opacity": 1
+      },
+      "animateOut": {
+        "top": 0,
+        "opacity": 0
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "slogan",
+    "cfg": {
+      "center": true,
+      "bg": "img/face_slogan.png",
+      "css": {
+        "opacity": 0,
+        "top": "30%",
+        "width": "70%",
+        "height": "70%"
+      },
+      "animateIn": {
+        "left": "16%",
+        "opacity": 1
+      },
+      "animateOut": {
+        "left": "0%",
+        "opacity": 0
+      },
+      "delay": 500
+    }
+  },
+  {
+    "isPage": false,
+    "name": "face_img_left",
+    "cfg": {
+      "bg": "img/face_img_left.png",
+      "css": {
+        "width": "55%",
+        "height": "55%",
+        "opacity": 0,
+        "left": "-20%",
+        "bottom": "-50%"
+      },
+      "animateIn": {
+        "left": 0,
+        "bottom": "-14%",
+        "opacity": 1
+      },
+      "animateOut": {
+        "left": "-50%",
+        "bottom": "-50%",
+        "opacity": 0
+      },
+      "delay": 1000
+    }
+  },
+  {
+    "isPage": false,
+    "name": "face_img_right",
+    "cfg": {
+      "bg": "img/face_img_right.png",
+      "css": {
+        "width": "45%",
+        "height": "45%",
+        "opacity": 0,
+        "right": "-50%",
+        "bottom": "-50%"
+      },
+      "animateIn": {
+        "right": 0,
+        "bottom": "-5%",
+        "opacity": 1
+      },
+      "animateOut": {
+        "right": "-50%",
+        "bottom": "-50%",
+        "opacity": 0
+      },
+      "delay": 1100
+    }
+  },
+  {
+    "isPage": true,
+    "name": "page_desc"
+  },
+  {
+    "isPage": false,
+    "name": "footer",
+    "cfg": {
+      "bg": "img/footer.png",
+      "css": {
+        "opacity": 0,
+        "left": 0,
+        "bottom": -20,
+        "width": "100%",
+        "height": "20px",
+        "zIndex": 999
+      },
+      "animateIn": {
+        "opacity": 1,
+        "bottom": "0px"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "bottom": "-20px"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "caption",
+    "cfg": {
+      "text": "3DS 游戏市场"
+    }
+  },
+  {
+    "isPage": false,
+    "name": "text",
+    "cfg": {
+      "bg": "img/text.png",
+      "css": {
+        "width": "80%",
+        "height": "80%",
+        "left": "10%",
+        "opacity": 0
+      },
+      "animateIn": {
+        "opacity": 1,
+        "top": "18%"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "top": "-10%"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "desc",
+    "cfg": {
+      "bg": "img/description_bg.png",
+      "css": {
+        "width": "82%",
+        "height": "26%",
+        "opacity": 0,
+        "left": "5%",
+        "top": "0%",
+        "padding": "15px",
+        "color": "#fff",
+        "fontSize": "14px",
+        "lineHeight": "18px",
+        "textAlign": "justify"
+      },
+      "text": "3DS任天堂次时代掌机一经发售，便快速拢占市场。游戏支持不仅有第一方著名的马里奥，口袋妖怪，塞尔达等。更有诸多第三方游戏厂家支持。此次盘点为2016~17年度3DS游戏发售量，竭力为你呈现最直观的，3DS的游戏市场数据。",
+      "animateIn": {
+        "opacity": 1,
+        "top": "30%"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "top": "0%"
+      },
+      "delay": 1000
+    }
+  },
+  {
+    "isPage": false,
+    "name": "people",
+    "cfg": {
+      "bg": "img/p1_people.png",
+      "css": {
+        "opacity": 0,
+        "bottom": "-77%",
+        "width": "100%",
+        "height": "100%"
+      },
+      "animateIn": {
+        "opacity": 1,
+        "bottom": "-66%"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "bottom": "-77%"
+      },
+      "delay": 500
+    }
+  },
+  {
+    "isPage": true,
+    "name": "page_1"
+  },
+  {
+    "isPage": false,
+    "name": "footer",
+    "cfg": {
+      "bg": "img/footer.png",
+      "css": {
+        "opacity": 0,
+        "left": 0,
+        "bottom": -20,
+        "width": "100%",
+        "height": "20px",
+        "zIndex": 999
+      },
+      "animateIn": {
+        "opacity": 1,
+        "bottom": "0px"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "bottom": "-20px"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "caption",
+    "cfg": {
+      "text": "3DS全球销量排名"
+    }
+  },
+  {
+    "isPage": false,
+    "name": "polyline",
+    "cfg": {
+      "type": "Polyline",
+      "width": 1000,
+      "height": 550,
+      "data": [
+        [
+          "No.1",
+          0.95,
+          "#FFE801"
+        ],
+        [
+          "No.2",
+          0.81
+        ],
+        [
+          "No.3",
+          0.74
+        ],
+        [
+          "No.4",
+          0.71
+        ],
+        [
+          "No.5",
+          0.65
+        ],
+        [
+          "No.6",
+          0.62
+        ],
+        [
+          "No.7",
+          0.51
+        ],
+        [
+          "No.8",
+          0.34
+        ],
+        [
+          "No.9",
+          0.31
+        ],
+        [
+          "No.10",
+          0.28
+        ]
+      ],
+      "css": {
+        "top": "0%",
+        "opacity": 0
+      },
+      "animateIn": {
+        "top": "30%",
+        "opacity": 1
+      },
+      "animateOut": {
+        "top": "0%",
+        "opacity": 0
+      }
+    }
+  },
+  {
+    "isPage": true,
+    "name": "page_1_dsc"
+  },
+  {
+    "isPage": false,
+    "name": "footer",
+    "cfg": {
+      "bg": "img/footer.png",
+      "css": {
+        "opacity": 0,
+        "left": 0,
+        "bottom": -20,
+        "width": "100%",
+        "height": "20px",
+        "zIndex": 999
+      },
+      "animateIn": {
+        "opacity": 1,
+        "bottom": "0px"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "bottom": "-20px"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "caption",
+    "cfg": {
+      "text": "3DS全球销量排名"
+    }
+  },
+  {
+    "isPage": false,
+    "name": "msg",
+    "cfg": {
+      "text": [
+        [
+          "No.1:",
+          "口袋妖怪XY",
+          "1430万"
+        ],
+        [
+          "No.2:",
+          "马里奥卡丁车",
+          "1219万"
+        ],
+        [
+          "No.3:",
+          "口袋妖怪蓝宝石复刻",
+          "1126万"
+        ],
+        [
+          "No.4:",
+          "超级马里奥3D大陆",
+          "1079万"
+        ],
+        [
+          "No.5:",
+          "新超级马里奥兄弟2",
+          "981万"
+        ],
+        [
+          "No.6:",
+          "动物之森：新叶",
+          "908万"
+        ],
+        [
+          "No.7:",
+          "任天堂大乱斗3DS",
+          "744万"
+        ],
+        [
+          "No.8:",
+          "朋友聚会生活",
+          "513万"
+        ],
+        [
+          "No.9:",
+          "路易鬼屋：暗月",
+          "458万"
+        ],
+        [
+          "No.10:",
+          "塞尔达传说：时之笛",
+          "420万"
+        ]
+      ],
+      "css": {
+        "width": "80%",
+        "top": "20%",
+        "left": "10%",
+        "opacity": 0
+      },
+      "animateIn": {
+        "opacity": 1
+      },
+      "animateOut": {
+        "opacity": 0
+      }
+    }
+  },
+  {
+    "isPage": true,
+    "name": "page_2"
+  },
+  {
+    "isPage": false,
+    "name": "footer",
+    "cfg": {
+      "bg": "img/footer.png",
+      "css": {
+        "opacity": 0,
+        "left": 0,
+        "bottom": -20,
+        "width": "100%",
+        "height": "20px",
+        "zIndex": 999
+      },
+      "animateIn": {
+        "opacity": 1,
+        "bottom": "0px"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "bottom": "-20px"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "caption",
+    "cfg": {
+      "text": "玩家消费周期"
+    }
+  },
+  {
+    "isPage": false,
+    "name": "pie",
+    "cfg": {
+      "type": "Pie",
+      "width": 400,
+      "height": 400,
+      "data": [
+        [
+          "首周",
+          0.4,
+          "#FCBCBC"
+        ],
+        [
+          "第二周",
+          0.25,
+          "#7BD7F9"
+        ],
+        [
+          "第三周",
+          0.15,
+          "#FF9881"
+        ],
+        [
+          "第四周",
+          0.1,
+          "#57D04E"
+        ],
+        [
+          "第五周",
+          0.1,
+          "#DCE382"
+        ],
+        [
+          "其他",
+          0.1,
+          "#E0E0E0"
+        ]
+      ],
+      "css": {
+        "top": "0%",
+        "opacity": 0
+      },
+      "animateIn": {
+        "top": "30%",
+        "opacity": 1
+      },
+      "animateOut": {
+        "top": "0%",
+        "opacity": 0
+      },
+      "center": true
+    }
+  },
+  {
+    "isPage": false,
+    "name": "msg",
+    "cfg": {
+      "slogan": "玩家消费程度随周数逐渐降低",
+      "sloganClass": "slogan_pie",
+      "css": {
+        "opacity": 0,
+        "bottom": 100,
+        "textAlign": "center",
+        "width": "100%",
+        "color": "#F51111",
+        "fontSize": "20px"
+      },
+      "animateIn": {
+        "opacity": 1
+      },
+      "animateOut": {
+        "opacity": 0
+      },
+      "delay": 1700
+    }
+  },
+  {
+    "isPage": true,
+    "name": "page_3"
+  },
+  {
+    "isPage": false,
+    "name": "footer",
+    "cfg": {
+      "bg": "img/footer.png",
+      "css": {
+        "opacity": 0,
+        "left": 0,
+        "bottom": -20,
+        "width": "100%",
+        "height": "20px",
+        "zIndex": 999
+      },
+      "animateIn": {
+        "opacity": 1,
+        "bottom": "0px"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "bottom": "-20px"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "caption",
+    "cfg": {
+      "text": "口袋妖怪历代销量"
+    }
+  },
+  {
+    "isPage": false,
+    "name": "bar",
+    "cfg": {
+      "type": "Bar",
+      "width": 550,
+      "height": 650,
+      "data": [
+        [
+          "红/蓝宝石",
+          0.62,
+          "16.4m",
+          "#0052FF"
+        ],
+        [
+          "火红/叶绿",
+          0.5,
+          "12m"
+        ],
+        [
+          "绿宝石",
+          0.25,
+          "6.3m"
+        ],
+        [
+          "珍珠/钻石",
+          0.62,
+          "16.5m",
+          "#FB059F"
+        ],
+        [
+          "白金",
+          0.27,
+          "7.6m"
+        ],
+        [
+          "心金/魂银",
+          0.53,
+          "12.7m"
+        ],
+        [
+          "黑/白",
+          0.57,
+          "15.6m"
+        ],
+        [
+          "黑2/白2",
+          0.35,
+          "8.5m"
+        ],
+        [
+          "XY",
+          0.62,
+          "17.4m",
+          "#FF2E00"
+        ],
+        [
+          "红/蓝宝石复刻",
+          0.49,
+          "11.9m"
+        ]
+      ],
+      "css": {
+        "top": 0,
+        "opacity": 0
+      },
+      "animateIn": {
+        "top": "20%",
+        "opacity": 1
+      },
+      "animateOut": {
+        "top": 0,
+        "opacity": 0
+      },
+      "center": true
+    }
+  },
+  {
+    "isPage": false,
+    "name": "msg",
+    "cfg": {
+      "slogan": "口袋妖怪XY荣居榜首！",
+      "sloganClass": "slogan_bar",
+      "css": {
+        "opacity": 0,
+        "bottom": 100,
+        "textAlign": "center",
+        "width": "100%",
+        "color": "#F51111",
+        "fontSize": "20px"
+      },
+      "animateIn": {
+        "opacity": 1
+      },
+      "animateOut": {
+        "opacity": 0
+      },
+      "delay": 1500
+    }
+  },
+  {
+    "isPage": true,
+    "name": "page_4"
+  },
+  {
+    "isPage": false,
+    "name": "footer",
+    "cfg": {
+      "bg": "img/footer.png",
+      "css": {
+        "opacity": 0,
+        "left": 0,
+        "bottom": -20,
+        "width": "100%",
+        "height": "20px",
+        "zIndex": 999
+      },
+      "animateIn": {
+        "opacity": 1,
+        "bottom": "0px"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "bottom": "-20px"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "caption",
+    "cfg": {
+      "text": "首周!Fami通评分"
+    }
+  },
+  {
+    "isPage": false,
+    "name": "Radar",
+    "cfg": {
+      "type": "radar",
+      "width": 500,
+      "height": 500,
+      "data": [
+        [
+          "口袋妖怪XY",
+          0.65,
+          "#c3e5ff"
+        ],
+        [
+          "跳出!动物之森",
+          0.65,
+          "#c3e5ff"
+        ],
+        [
+          "怪物猎人4",
+          0.55,
+          "#c3e5ff"
+        ],
+        [
+          "妖怪手表2",
+          0.35,
+          "#c3e5ff"
+        ],
+        [
+          "口袋妖怪复刻",
+          0.45,
+          "#c3e5ff"
+        ]
+      ],
+      "css": {
+        "bottom": 0,
+        "opacity": 0
+      },
+      "animateIn": {
+        "top": "24%",
+        "opacity": 1
+      },
+      "animateOut": {
+        "bottom": 0,
+        "opacity": 0
+      },
+      "center": true
+    }
+  },
+  {
+    "isPage": false,
+    "name": "msg",
+    "cfg": {
+      "slogan": "口袋妖怪XY获得39分！",
+      "sloganClass": "slogan_radar",
+      "css": {
+        "opacity": 0,
+        "bottom": 100,
+        "textAlign": "center",
+        "width": "100%",
+        "color": "#F51111",
+        "fontSize": "20px"
+      },
+      "animateIn": {
+        "opacity": 1
+      },
+      "animateOut": {
+        "opacity": 0
+      },
+      "delay": 2000
+    }
+  },
+  {
+    "isPage": true,
+    "name": "page_5"
+  },
+  {
+    "isPage": false,
+    "name": "footer",
+    "cfg": {
+      "bg": "img/footer.png",
+      "css": {
+        "opacity": 0,
+        "left": 0,
+        "bottom": -20,
+        "width": "100%",
+        "height": "20px",
+        "zIndex": 999
+      },
+      "animateIn": {
+        "opacity": 1,
+        "bottom": "0px"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "bottom": "-20px"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "caption",
+    "cfg": {
+      "text": "国际游戏销售比例"
+    }
+  },
+  {
+    "isPage": false,
+    "name": "point",
+    "cfg": {
+      "type": "Point",
+      "width": 250,
+      "height": 250,
+      "data": [
+        [
+          "日本",
+          0.3,
+          "#FC7C7C"
+        ],
+        [
+          "欧洲",
+          0.2,
+          "#A3F6F5",
+          "70%",
+          "-70%"
+        ],
+        [
+          "北美",
+          0.1,
+          "#13DB64",
+          "-40%",
+          "-50%"
+        ],
+        [
+          "中国港台",
+          0.15,
+          "#D5E86D",
+          "-55%",
+          "90%"
+        ],
+        [
+          "其他",
+          0.25,
+          "#FF7CDB",
+          "75%",
+          "110%"
+        ]
+      ],
+      "css": {
+        "bottom": 0,
+        "opacity": 0
+      },
+      "animateIn": {
+        "bottom": "40%",
+        "opacity": 1
+      },
+      "animateOut": {
+        "bottom": 0,
+        "opacity": 0
+      },
+      "center": true
+    }
+  },
+  {
+    "isPage": true,
+    "name": "tail"
+  },
+  {
+    "isPage": false,
+    "name": "footer",
+    "cfg": {
+      "bg": "img/footer.png",
+      "css": {
+        "opacity": 0,
+        "left": 0,
+        "bottom": -20,
+        "width": "100%",
+        "height": "20px",
+        "zIndex": 999
+      },
+      "animateIn": {
+        "opacity": 1,
+        "bottom": "0px"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "bottom": "-20px"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "tail_logo",
+    "cfg": {
+      "bg": "img/tail_logo.png",
+      "css": {
+        "width": "70%",
+        "height": "70%",
+        "opacity": 0,
+        "left": "17%",
+        "top": "50%"
+      },
+      "animateIn": {
+        "opacity": 1,
+        "top": "30%"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "top": "100%"
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "slogan",
+    "cfg": {
+      "bg": "img/tail_slogan.png",
+      "css": {
+        "width": "50%",
+        "height": "50%",
+        "opacity": 0,
+        "top": "45%",
+        "left": 0
+      },
+      "animateIn": {
+        "opacity": 1,
+        "left": "26%"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "left": "0"
+      },
+      "delay": 500
+    }
+  },
+  {
+    "isPage": false,
+    "name": "tail_share",
+    "cfg": {
+      "bg": "img/tail_share.png",
+      "css": {
+        "width": "25%",
+        "height": "25%",
+        "opacity": 0,
+        "top": "100%"
+      },
+      "animateIn": {
+        "opacity": 1,
+        "top": 0,
+        "right": "1%"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "top": "100%",
+        "right": "100%"
+      },
+      "delay": 800
+    }
+  },
+  {
+    "isPage": false,
+    "name": "tail_back",
+    "cfg": {
+      "bg": "img/tail_back.png",
+      "css": {
+        "width": "10%",
+        "height": "10%",
+        "opacity": 0,
+        "left": "45%",
+        "top": "5%"
+      },
+      "animateIn": {
+        "opacity": 1,
+        "top": "0"
+      },
+      "animateOut": {
+        "opacity": 0,
+        "top": "5%"
+      },
+      "class": "backBtn",
+      "onclick": {}
+    }
+  }
+]
