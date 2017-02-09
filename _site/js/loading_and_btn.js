@@ -44,7 +44,20 @@ function H5_loading(images,firstPage){
 	}
 
 	//各类注册按钮事件
+	var leftFlag = 0;
 	$('.backBtn').on('click',function(){
 		$.fn.fullpage.moveTo(1)
 	});
+    $(".h5_Rbtn").click(function(){
+    	if($(window).width()-leftFlag>=200){ 
+            leftFlag+=200;
+            $(".h5_Polyline").animate({right: '+=200'}, "slow");
+        }
+    });
+    $(".h5_Lbtn").click(function(){
+    	if(leftFlag>=200) {
+    		leftFlag-=200;   
+            $(".h5_Polyline").animate({right: '-=200'}, "slow");
+        }
+    });
 }

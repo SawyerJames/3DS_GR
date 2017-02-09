@@ -126,7 +126,7 @@
 				bg : 'img/description_bg.png',
 				css : {
 					width : '82%',
-					height : '82%',
+					height : '26%',
 					opacity : 0,
 					left : '5%',
 					top : '0%',
@@ -170,7 +170,7 @@
 			.addComponent('polyline',{
 				type : 'Polyline',
 				width : 1000,
-				height : 550,
+				height : 450,
 				//data数据[项目，比例，颜色]
 				data : [
 					['No.1', .95,'#FFE801'],
@@ -189,13 +189,45 @@
 					opacity : 0
 				},
 				animateIn:{
-					top : '30%',
+					top : '25%',
 					opacity : 1
 				},
 				animateOut:{
 					top : '0%',
 					opacity : 0
 				},
+			})
+			.addComponent('Lbtn',{
+				bg : 'img/Lbtn.png',
+				css : {
+					width : '10%',
+					height : '10%',
+					opacity : 0,
+					bottom : '10%',
+					left : '15%'
+				},
+				animateIn : {
+					opacity : 0.7,
+				},
+				animateOut : {
+					opacity : 0,
+				}
+			})
+			.addComponent('Rbtn',{
+				bg : 'img/Rbtn.png',
+				css : {
+					width : '10%',
+					height : '10%',
+					opacity : 0,
+					bottom : '10%',
+					right : '15%'
+				},
+				animateIn : {
+					opacity : 0.7,
+				},
+				animateOut : {
+					opacity : 0,
+				}
 			})
 		.addPage('page_1_dsc')
 			.addComponent('caption',{text:'3DS全球销量排名'})
@@ -482,38 +514,38 @@
 					}
 				}
 			})
-		// .loader(9
-		// 	['img/tail_back.png',
-		// 		'img/tail_share.png',
-		// 		'img/tail_logo.png',
-		// 		'img/tail_slogan.png',
-		// 		'img/face_logo.png',
-		// 		'img/face_slogan.png',
-		// 		'img/face_img_left.png',
-		// 		'img/face_img_right.png',
-		// 		'img/description_bg.png',
-		// 		'img/p1_people.png']
-		// 		);
-	$.getJSON('data.json',function(json){
-		$.each(json,function(i,item){
-			if (item.isPage) {
-				h5.addPage(item.name,item.text);
-			}
-			else{
-				h5.addComponent(item.name,item.cfg);
-			}
-		});
-		h5.loader([
-			'img/tail_back.png',
-			'img/tail_share.png',
-			'img/tail_logo.png',
-			'img/tail_slogan.png',
-			'img/face_logo.png',
-			'img/face_slogan.png',
-			'img/face_img_left.png',
-			'img/face_img_right.png',
-			'img/description_bg.png',
-			'img/p1_people.png'
-		]);
-	});
+		.loader(3
+			['img/tail_back.png',
+				'img/tail_share.png',
+				'img/tail_logo.png',
+				'img/tail_slogan.png',
+				'img/face_logo.png',
+				'img/face_slogan.png',
+				'img/face_img_left.png',
+				'img/face_img_right.png',
+				'img/description_bg.png',
+				'img/p1_people.png']
+				);
+	// $.getJSON('data.json',function(json){
+	// 	$.each(json,function(i,item){
+	// 		if (item.isPage) {
+	// 			h5.addPage(item.name,item.text);
+	// 		}
+	// 		else{
+	// 			h5.addComponent(item.name,item.cfg);
+	// 		}
+	// 	});
+	// 	h5.loader([
+	// 		'img/tail_back.png',
+	// 		'img/tail_share.png',
+	// 		'img/tail_logo.png',
+	// 		'img/tail_slogan.png',
+	// 		'img/face_logo.png',
+	// 		'img/face_slogan.png',
+	// 		'img/face_img_left.png',
+	// 		'img/face_img_right.png',
+	// 		'img/description_bg.png',
+	// 		'img/p1_people.png'
+	// 	]);
+	// });
 });

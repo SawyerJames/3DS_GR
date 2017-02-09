@@ -195,7 +195,7 @@
       "text": "3DS任天堂次时代掌机一经发售，便快速拢占市场。游戏支持不仅有第一方著名的马里奥，口袋妖怪，塞尔达等。更有诸多第三方游戏厂家支持。此次盘点为2016~17年度3DS游戏发售量，竭力为你呈现最直观的，3DS的游戏市场数据。",
       "animateIn": {
         "opacity": 1,
-        "top": "30%"
+        "top": "32%"
       },
       "animateOut": {
         "opacity": 0,
@@ -266,7 +266,7 @@
     "cfg": {
       "type": "Polyline",
       "width": 1000,
-      "height": 550,
+      "height": 450,
       "data": [
         [
           "No.1",
@@ -315,11 +315,51 @@
         "opacity": 0
       },
       "animateIn": {
-        "top": "30%",
+        "top": "25%",
         "opacity": 1
       },
       "animateOut": {
         "top": "0%",
+        "opacity": 0
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "Lbtn",
+    "cfg": {
+      "bg": "img/Lbtn.png",
+      "css": {
+        "width": "10%",
+        "height": "10%",
+        "opacity": 0,
+        "bottom": "10%",
+        "left": "15%"
+      },
+      "animateIn": {
+        "opacity": 0.7
+      },
+      "animateOut": {
+        "opacity": 0
+      }
+    }
+  },
+  {
+    "isPage": false,
+    "name": "Rbtn",
+    "cfg": {
+      "bg": "img/Rbtn.png",
+      "css": {
+        "width": "10%",
+        "height": "10%",
+        "opacity": 0,
+        "bottom": "10%",
+        "right": "15%"
+      },
+      "animateIn": {
+        "opacity": 0.7
+      },
+      "animateOut": {
         "opacity": 0
       }
     }
