@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width,minimum-scale=1,maximum-scale=1'>
+	<link rel="stylesheet" type="text/css" href="css/content_organize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/loading.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/init.css"/>
+	<link rel="short icon" type="image/ico" href="img/favicon.ico">
+	<title>ITpro</title>
+</head>
+<body>
+	<!-- 添加0%加载器 -->
+	<div class="loading">
+		<div class="mark"></div>
+		<img src="img/loading.gif" alt="loading,please wite">
+		<div id="rate">0%</div>
+	</div>
+	<div id="file"></div>
+	<!-- 加载资源 -->
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/content_organize.js"></script>
+	<script type="text/javascript" src="js/loading_and_btn.js"></script>
+	<script type="text/javascript">
+		var res = [
+			'Base','Pie','Point','Polyline','Radar','Bar'
+		];
+		var html = [];
+		for( s in res ){
+			html.push('<script type="text/javascript" src="js/component' + res[s] +'.js"><' + '/script>');
+			html.push('<link rel="stylesheet" type="text/css" href="css/component' + res[s] +'.css"/>');
+		}
+		document.write(html.join(' '));
+	</script>
+	<script type="text/javascript" src="js/main_json.js"></script>
+</body>
+</html>

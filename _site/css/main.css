@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Microsoft YaHei', "SimHei";
+	font-size: 14px;
+	position: relative; 
+}
+.h5_page{
+	background: url(../img/page_bg.png) no-repeat;
+	background-size: cover;
+}
+.face{
+	background: url(../img/face_bg.png) no-repeat;
+	background-size: cover;
+}
+.h5_slogan{
+	-webkit-animation: rock 2s infinite 1.6s;
+	-o-animation: rock 2s infinite 1.6s;
+	animation: rock 2s infinite 1.6s;
+}
+.h5_caption{
+	background: url(../img/page_caption_bg.png);
+	position: absolute;
+	top: -20px;
+	width: 90%;
+	height: 25%;
+	text-align: center;
+	padding-top: 18%;
+	font-size: 20px;
+	color: #fff;
+}
+.h5_tail_back{
+	top : 0px;
+	-webkit-animation: Yrock 1s infinite 1s;
+	-o-animation: Yrock 1s infinite 1s;
+	animation: Yrock 1s infinite 1s;
+}
+.slogan_bar{
+	position: absolute;	
+	width: 100%;
+	height: 100px;
+	top:-20px;
+	background:url(../img/slogan.png);
+	background-size: cover;
+}
+.slogan_pie{
+	position: absolute;
+	width: 100%;
+	top:-20px;
+	height: 100px;
+	background:url(../img/slogan2.png);
+	background-size: cover;
+}
+.slogan_radar{
+	position: absolute;	
+	width: 100%;
+	height: 100px;
+	top:-20px;
+	background:url(../img/slogan3.png);
+	background-size: cover;
+}
+.h5_sloganTxt{
+	position: absolute;
+	font-size: 18px;
+	top:55px;
+	color: #FFFFFF;
+	font-weight: bold;
+	left: 33%;
+}
+.slogan_pie .h5_sloganTxt{
+	position: absolute;
+	font-size: 18px;
+	top:55px;
+	color: #FFFFFF;
+	font-weight: bold;
+	left: 23%;
+}
+.h5_msg .spanDiv{
+	width: 100%;
+	height: 100%;
+	margin:5% auto;
+}
+.h5_msg .spanNum{
+	display: inline-block;
+	padding: 3px;
+	margin-right: 10px;
+	border-radius: 2px;
+	background-color: #99D9E5;
+	color: #131010;
+	font-weight: bold;
+}
+.h5_msg .spanText{
+	display: inline-block;
+	padding: 3px;
+	margin-right: 10px;
+	border-radius: 2px;
+	background-color: #FC8E75;
+	color: #131010;
+	font-weight: bold;
+}
+.h5_msg .spanPer{
+	display: inline-block;
+	padding: 3px;
+	float: right;
+	border-radius: 2px;
+	background-color: #FCDD75;
+	color: #131010;
+	font-weight: bold;
+}
+@-webkit-keyframes rock{
+	0%{ transform: rotate(0deg) }
+	5%{ transform: rotate(4deg) }
+	10%{ transform: rotate(-4deg) }
+	15%{ transform: rotate(3deg) }
+	20%{ transform: rotate(-3deg) }
+	25%{ transform: rotate(2deg) }
+	30%{ transform: rotate(-2deg) }
+	35%{ transform: rotate(1deg) }
+	70%{ transform: rotate(-1deg) }
+	100%{ transform: rotate(0deg) }
+}
+@-webkit-keyframes Yrock{
+	50%{top:10px;}
+}

@@ -1,0 +1,38 @@
+/*loading动画样式*/
+/*使内部有定位属性的元素能够被定位*/
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+}
+.loading .mark{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+}
+.loading img{
+	width: 57%;
+	height: 25%;
+	position: absolute;
+	top: 33%;
+	left: 25%;
+}
+.loading #rate{
+	position: absolute;
+	background: #CFCFCF;
+	border-radius: 5px;
+	padding-top: 4px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	width: 80px;
+	height: 25px;
+	line-height: 20px;
+	top:58%;
+	left:38%;
+	color: #000000;
+}
